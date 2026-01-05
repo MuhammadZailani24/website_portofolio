@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MUHAMMAD ZAILANI — Portofolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="container wrap">
+      <a class="brand" href="#home">
+        <span class="badge"></span>
+        <span class="brand-text">MUHAMMAD ZAILANI</span>
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="Menu">☰</button>
+
+      <div class="menu" id="menu">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#certs">Sertifikat</a>
+        <a href="#contact">Contact</a>
+        <button class="btn" id="themeBtn" type="button">🌗 Mode</button>
+        <a class="btn primary" href="#contact">Hire Me</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="home" class="hero">
+    <div class="container grid">
+      <section class="card reveal">
+        <div class="kicker">Indonesia</div>
+        <h1>
+          <span class="role">Mahasiswa Teknik Informatika</span><br/>
+          <span class="typing" id="typing">UNISKA MAB</span><span class="caret">|</span>
+        </h1>
+
+        <p>
+          Saya <b>MUHAMMAD ZAILANI</b>, mahasiswa Teknik Informatika yang fokus pada
+          pengembangan aplikasi web, sistem informasi, dan pemrograman berorientasi objek.
+        </p>
+
+        <div class="chips">
+          <a class="chip" href="https://github.com/username" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="chip" href="https://linkedin.com/in/username" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="chip" href="https://wa.me/62812xxxxxxx" target="_blank" rel="noreferrer">WhatsApp</a>
+        </div>
+      </section>
+
+      <aside class="card reveal">
+        <div class="kicker">Quick Info</div>
+
+        <div class="info">
+          <div class="info-row">
+            <span class="muted">Nama</span>
+            <b>MUHAMMAD ZAILANI</b>
+          </div>
+          <div class="info-row">
+            <span class="muted">Status</span>
+            <b>Mahasiswa Teknik Informatika</b>
+          </div>
+          <div class="info-row">
+            <span class="muted">Fokus</span>
+            <b>Web Apps • CRUD • UI Modern</b>
+          </div>
+        </div>
+
+        <div class="chips">
+          <span class="chip">Responsive</span>
+          <span class="chip">Clean UI</span>
+          <span class="chip">Fast Load</span>
+        </div>
+
+        <div class="cta">
+          <a class="btn primary" href="#projects">Lihat Proyek</a>
+          <a class="btn" href="#certs">Lihat Sertifikat</a>
+
+          <!-- DOWNLOAD CV -->
+          <a class="btn" href="assets/cv/CV Muhammad Zailani.pdf" download>
+            ⬇ Download CV (PDF)
+          </a>
+        </div>
+      </aside>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="card reveal">
+        <h2>About</h2>
+        <p class="sub">
+          Saya adalah <b>Mahasiswa Teknik Informatika</b> yang aktif mengikuti praktikum, seminar,
+          dan pelatihan untuk meningkatkan skill di bidang Web Development, Database, dan UI/UX.
+        </p>
+
+        <div class="stats">
+          <div class="stat"><b>21</b><span>Sertifikat</span></div>
+          <div class="stat"><b>Web</b><span>Focus</span></div>
+          <div class="stat"><b>OOP</b><span>Java/Python</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS (ringkas) -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="card reveal">
+        <h2>Projects</h2>
+        <p class="sub">Contoh proyek (kamu bisa edit sesuai kebutuhan).</p>
+
+        <div class="projects">
+          <article class="card project">
+            <div class="kicker">Web</div>
+            <h3>Website Pendaftaran Dynastic Gym</h3>
+            <p>Daftar Member,Atur Latihan,Pilih Instruktur</p>
+            <div class="meta">
+              <span class="pill tag">Web</span>
+              <span class="pill">PHP</span>
+              <span class="pill">MySQL</span>
+              <span class="pill">JavaScript</span>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="kicker">Desktop</div>
+            <h3>Aplikasi Manajemen Rental Mobil</h3>
+            <p>Kelola Mobil,Kelola Laporan,Kelola Sewa.</p>
+            <div class="meta">
+              <span class="pill tag">Desktop</span>
+              <span class="pill">Java</span>
+              <span class="pill">MySQL</span>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="kicker">Desktop</div>
+            <h3>Aplikasi Kasir Warung ES</h3>
+            <p>Memanejemen Pesanan Di Kasir Secara Teratur.</p>
+            <div class="meta">
+              <span class="pill tag">Desktop</span>
+              <span class="pill">Java</span>
+              <span class="pill">MySQL</span>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATES -->
+  <section id="certs" class="section">
+    <div class="container">
+      <div class="card reveal">
+        <h2>Gallery Sertifikat</h2>
+        <p class="sub">Klik sertifikat untuk melihat ukuran besar.</p>
+
+        <!-- FILTER SERTIFIKAT -->
+        <div class="filters" role="tablist" aria-label="Filter Sertifikat">
+          <button class="filter active" data-cert-filter="All" type="button">All</button>
+          <button class="filter" data-cert-filter="Praktikum" type="button">Praktikum</button>
+          <button class="filter" data-cert-filter="Seminar" type="button">Seminar</button>
+          <button class="filter" data-cert-filter="Sertifikat" type="button">Kursus</button>
+          <button class="filter" data-cert-filter="Webinar" type="button">Webinar</button>
+        </div>
+
+        <!-- GRID 21 SLOT -->
+        <div class="cert-grid">
+
+          <!-- 01 -->
+          <article class="cert" data-cert-tag="Sertifikat" data-cert-title="Front END CSS" data-cert-img="assets/certs/sertifikat-01.jpg">
+            <div class="cert-thumb"><img src="assets/certs/Front END CSS.jpg" alt="Front END CSS"></div>
+            <div class="cert-info"><b>Front END CSS</b><span class="muted">Kategori: Sertifikat</span></div>
+          </article>
+
+          <!-- 02 -->
+          <article class="cert" data-cert-tag="Sertifikat" data-cert-title="Front End HTML" data-cert-img="assets/certs/sertifikat-02.jpg">
+            <div class="cert-thumb"><img src="assets/certs/Front End HTML.jpg" alt="Front End HTML"></div>
+            <div class="cert-info"><b>Front End HTML</b><span class="muted">Kategori: Sertifikat</span></div>
+          </article>
+
+          <!-- 03 -->
+          <article class="cert" data-cert-tag="Praktikum" data-cert-title="Praktikum Android" data-cert-img="assets/certs/sertifikat-03.jpg">
+            <div class="cert-thumb"><img src="assets/certs/Praktikum Android.jpg" alt="Praktikum Android"></div>
+            <div class="cert-info"><b>Praktikum Android</b><span class="muted">Kategori: Praktikum</span></div>
+          </article>
+
+          <!-- 04 -->
+          <article class="cert" data-cert-tag="Praktikum" data-cert-title="Praktikum Basis Data 1" data-cert-img="assets/certs/sertifikat-04.jpg">
+            <div class="cert-thumb"><img src="assets/certs/Praktikum Basis Data 1.jpg" alt="Praktikum Basis Data 1"></div>
+            <div class="cert-info"><b>Praktikum Basis Data 1</b><span class="muted">Kategori: Praktikum</span></div>
+          </article>
+
+          <!-- 05 -->
+          <article class="cert" data-cert-tag="Praktikum" data-cert-title="Praktikum Basis Data 2" data-cert-img="assets/certs/sertifikat-05.jpg">
+            <div class="cert-thumb"><img src="assets/certs/Praktikum Basis Data 2.jpg" alt="Praktikum Basis Data 2"></div>
+            <div class="cert-info"><b>Praktikum Basis Data 2</b><span class="muted">Kategori: Praktikum</span></div>
+          </article>
+
+          <!-- 06 -->
+          <article class="cert" data-cert-tag="Praktikum" data-cert-title="Praktikum Data Science" data-cert-img="assets/certs/sertifikat-06.jpg">
+            <div class="cert-thumb"><img src="assets/certs/Praktikum Data Science.jpg" alt="Praktikum Data Science"></div>
+            <div class="cert-info"><b>Praktikum Data Science</b><span class="muted">Kategori: Praktikum</span></div>
+          </article>
+
+          <!-- 07 -->
+          <article class="cert" data-cert-tag="Praktikum" data-cert-title="Praktikum Jaringan Komputer 2" data-cert-img="assets/certs/sertifikat-07.jpg">
+            <div class="cert-thumb"><img src="assets/certs/Praktikum Jaringan Komputer 2.jpg" alt="Praktikum Jaringan Komputer 2"></div>
+            <div class="cert-info"><b>Praktikum Jaringan Komputer 2</b><span class="muted">Kategori: Praktikum</span></div>
+          </article>
+
+          <!-- 08 -->
+          <article class="cert" data-cert-tag="Praktikum" data-cert-title="Praktikum Pemrograman Web 1" data-cert-img="assets/certs/sertifikat-08.jpg">
+            <div class="cert-thumb"><img src="assets/certs/Praktikum Pemrograman Web 1.jpg" alt="Praktikum Pemrograman Web 1"></div>
+            <div class="cert-info"><b>Praktikum Pemrograman Web 1</b><span class="muted">Kategori: Praktikum</span></div>
+          </article>
+
+          <!-- 09 -->
+          <article class="cert" data-cert-tag="Praktikum" data-cert-title="Praktikum Pemrograman Web 2" data-cert-img="assets/certs/sertifikat-09.jpg">
+            <div class="cert-thumb"><img src="assets/certs/Praktikum Pemrograman Web 2.jpg" alt="Praktikum Pemrograman Web 2"></div>
+            <div class="cert-info"><b>Praktikum Pemrograman Web 2</b><span class="muted">Kategori: Praktikum</span></div>
+          </article>
+
+          <!-- 10 -->
+          <article class="cert" data-cert-tag="Praktikum" data-cert-title="Praktikum Desain Grafis" data-cert-img="assets/certs/sertifikat-10.jpg">
+            <div class="cert-thumb"><img src="assets/certs/Praktiukum Desain Grafis.jpg" alt="Praktikum Desain Grafis"></div>
+            <div class="cert-info"><b>Praktikum Desain Grafis</b><span class="muted">Kategori: Praktikum</span></div>
+          </article>
+
+          <!-- 11 -->
+          <article class="cert" data-cert-tag="Seminar" data-cert-title="Seminar Generasi Emas" data-cert-img="assets/certs/sertifikat-11.jpg">
+            <div class="cert-thumb"><img src="assets/certs/Seminar Generasi Emas.png" alt="Seminar Generasi Emas"></div>
+            <div class="cert-info"><b>Seminar Generasi Emas</b><span class="muted">Kategori: Seminar</span></div>
+          </article>
+
+          <!-- 12 -->
+          <article class="cert" data-cert-tag="Seminar" data-cert-title="Seminar Hybrid" data-cert-img="assets/certs/sertifikat-12.jpg">
+            <div class="cert-thumb"><img src="assets/certs/Seminar Hybrid.jpg" alt="Seminar Hybrid"></div>
+            <div class="cert-info"><b>Seminar Hybrid</b><span class="muted">Kategori: Seminar</span></div>
+          </article>
+
+          <!-- 13 -->
+          <article class="cert" data-cert-tag="Seminar" data-cert-title="Seminar Literasi UNISKA MAB" data-cert-img="assets/certs/sertifikat-13.jpg">
+            <div class="cert-thumb"><img src="assets/certs/Seminar Literasi UNISKA MAB.jpg" alt="Seminar Literasi UNISKA MAB"></div>
+            <div class="cert-info"><b>Seminar Literasi UNISKA MAB</b><span class="muted">Kategori: Seminar</span></div>
+          </article>
+
+          <!-- 14 -->
+          <article class="cert" data-cert-tag="Sertifikat" data-cert-title="Sertifikat Fundamental UI_UX" data-cert-img="assets/certs/sertifikat-14.jpg">
+            <div class="cert-thumb"><img src="assets/certs/Sertifikat Fundamental UI_UX.jpg" alt="Sertifikat Fundamental UI_UX"></div>
+            <div class="cert-info"><b>Sertifikat Fundamental UI_UX</b><span class="muted">Kategori: Sertifikat</span></div>
+          </article>
+
+          <!-- 15 -->
+          <article class="cert" data-cert-tag="Sertifikat" data-cert-title="Sertifikat Kelola Keuangan" data-cert-img="assets/certs/sertifikat-15.jpg">
+            <div class="cert-thumb"><img src="assets/certs/Sertifikat Kelola Keuangan.png" alt="Sertifikat Kelola Keuangan"></div>
+            <div class="cert-info"><b>Sertifikat Kelola Keuangan</b><span class="muted">Kategori: Sertifikat</span></div>
+          </article>
+
+          <!-- 16 -->
+          <article class="cert" data-cert-tag="Sertifikat" data-cert-title="Sertifikat Pengenalan Data Analys" data-cert-img="assets/certs/sertifikat-16.jpg">
+            <div class="cert-thumb"><img src="assets/certs/Sertifikat Pengenalan Data Analys.jpg" alt="Sertifikat Pengenalan Data Analys"></div>
+            <div class="cert-info"><b>Sertifikat Pengenalan Data Analys</b><span class="muted">Kategori: Sertifikat</span></div>
+          </article>
+
+          <!-- 17 -->
+          <article class="cert" data-cert-tag="Sertifikat" data-cert-title="Sertifikat People Analytics" data-cert-img="assets/certs/sertifikat-17.jpg">
+            <div class="cert-thumb"><img src="assets/certs/Sertifikat People Analytics.jpg" alt="Sertifikat People Analytics"></div>
+            <div class="cert-info"><b>Sertifikat People Analytics</b><span class="muted">Kategori: Sertifikat</span></div>
+          </article>
+
+          <!-- 18 -->
+          <article class="cert" data-cert-tag="Sertifikat" data-cert-title="Sertifikat Praktikum PPN" data-cert-img="assets/certs/sertifikat-18.jpg">
+            <div class="cert-thumb"><img src="assets/certs/Sertifikat Praktikum PPN.jpg" alt="Sertifikat Praktikum PPN"></div>
+            <div class="cert-info"><b>Sertifikat Praktikum PPN</b><span class="muted">Kategori: Sertifikat</span></div>
+          </article>
+
+          <!-- 19 -->
+          <article class="cert" data-cert-tag="Sertifikat" data-cert-title="Sertifikat Rest API" data-cert-img="assets/certs/sertifikat-19.jpg">
+            <div class="cert-thumb"><img src="assets/certs/Sertifikat Rest API.png" alt="Sertifikat Rest API"></div>
+            <div class="cert-info"><b>Sertifikat Rest API</b><span class="muted">Kategori: Sertifikat</span></div>
+          </article>
+
+          <!-- 20 -->
+          <article class="cert" data-cert-tag="Sertifikat" data-cert-title="sertifikat-office-lkp" data-cert-img="assets/certs/sertifikat-20.jpg">
+            <div class="cert-thumb"><img src="assets/certs/sertifikat-office-lkp.png" alt="sertifikat-office-lkp"></div>
+            <div class="cert-info"><b>sertifikat-office-lkp</b><span class="muted">Kategori: Sertifikat</span></div>
+          </article>
+
+          <!-- 21 -->
+          <article class="cert" data-cert-tag="Webinar" data-cert-title="Webinar Cyber Security" data-cert-img="assets/certs/sertifikat-21.jpg">
+            <div class="cert-thumb"><img src="assets/certs/Webinar Cyber Security.jpg" alt="Webinar Cyber Security"></div>
+            <div class="cert-info"><b>Webinar Cyber Security</b><span class="muted">Kategori: Webinar</span></div>
+          </article>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="card reveal">
+        <h2>Contact</h2>
+        <p class="sub">Silakan hubungi saya melalui email atau WhatsApp.</p>
+
+        <div class="chips">
+          <a class="chip" href="mailto:mzailani728@gmail.com">mzailani728@gmail.com</a>
+          <a class="chip" href="https://wa.me/6285166623903" target="_blank" rel="noreferrer">6285166623903</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODAL CERTIFICATE -->
+  <div class="modal" id="certModal" aria-hidden="true">
+    <div class="modal-box cert-modal-box" role="dialog" aria-modal="true" aria-labelledby="certModalTitle">
+      <div class="modal-head">
+        <b id="certModalTitle">Sertifikat</b>
+        <button class="btn" id="closeCertModal" type="button">✕</button>
+      </div>
+
+      <div class="cert-modal-body">
+        <img id="certModalImg" alt="Preview Sertifikat">
+        <div class="cert-modal-actions">
+          <a class="btn primary" id="certOpenNewTab" target="_blank" rel="noreferrer">Buka Tab Baru</a>
+          <a class="btn" id="certDownload" download>Download</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast"></div>
+
+  <footer class="footer">
+    © <span id="year"></span> MUHAMMAD ZAILANI. Built with HTML/CSS/JS.
+  </footer>
+
+  <script>
+    // ===== year =====
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // ===== mobile menu =====
+    const hamburger = document.getElementById("hamburger");
+    const menu = document.getElementById("menu");
+    hamburger.addEventListener("click", ()=> menu.classList.toggle("show"));
+    menu.querySelectorAll("a").forEach(a=>{
+      a.addEventListener("click", ()=> menu.classList.remove("show"));
+    });
+
+    // ===== theme toggle =====
+    const root = document.documentElement;
+    const themeBtn = document.getElementById("themeBtn");
+    const saved = localStorage.getItem("theme");
+    if (saved) root.setAttribute("data-theme", saved);
+
+    themeBtn.addEventListener("click", ()=>{
+      const now = root.getAttribute("data-theme") === "light" ? "dark" : "light";
+      root.setAttribute("data-theme", now);
+      localStorage.setItem("theme", now);
+    });
+
+    // ===== cert filter =====
+    const certFilters = document.querySelectorAll("[data-cert-filter]");
+    const certCards = document.querySelectorAll(".cert[data-cert-tag]");
+
+    certFilters.forEach(btn=>{
+      btn.addEventListener("click", ()=>{
+        certFilters.forEach(b=>b.classList.remove("active"));
+        btn.classList.add("active");
+
+        const tag = btn.getAttribute("data-cert-filter");
+        certCards.forEach(c=>{
+          const t = c.getAttribute("data-cert-tag");
+          c.style.display = (tag === "All" || tag === t) ? "" : "none";
+        });
+      });
+    });
+
+    // ===== cert modal =====
+    const certModal = document.getElementById("certModal");
+    const closeCertModal = document.getElementById("closeCertModal");
+    const certModalTitle = document.getElementById("certModalTitle");
+    const certModalImg = document.getElementById("certModalImg");
+    const certOpenNewTab = document.getElementById("certOpenNewTab");
+    const certDownload = document.getElementById("certDownload");
+
+    function showCertModal({title, img}){
+      certModalTitle.textContent = title || "Sertifikat";
+      certModalImg.src = img;
+      certOpenNewTab.href = img;
+      certDownload.href = img;
+      certModal.classList.add("show");
+      certModal.setAttribute("aria-hidden", "false");
+    }
+
+    function hideCertModal(){
+      certModal.classList.remove("show");
+      certModal.setAttribute("aria-hidden", "true");
+    }
+
+    document.querySelectorAll(".cert").forEach(card=>{
+      card.addEventListener("click", ()=>{
+        showCertModal({
+          title: card.getAttribute("data-cert-title"),
+          img: card.getAttribute("data-cert-img")
+        });
+      });
+    });
+
+    closeCertModal.addEventListener("click", hideCertModal);
+    certModal.addEventListener("click", (e)=>{ if(e.target === certModal) hideCertModal(); });
+    document.addEventListener("keydown", (e)=>{ if(e.key === "Escape") hideCertModal(); });
+
+    // ===== scroll reveal (simple) =====
+    const io = new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{
+        if(e.isIntersecting){
+          e.target.classList.add("show");
+          io.unobserve(e.target);
+        }
+      });
+    },{threshold:.12});
+    document.querySelectorAll(".reveal").forEach(el=>io.observe(el));
+  </script>
+</body>
+</html>
